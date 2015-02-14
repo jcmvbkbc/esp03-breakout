@@ -1,0 +1,115 @@
+Cmp-Mod V01 Created by CvPcb (2013-june-11)-stable date = Sun 15 Feb 2015 12:15:21 AM GMT-3
+
+BeginCmp
+TimeStamp = /54DFBA92;
+Reference = C1;
+ValeurCmp = C;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D95856;
+Reference = JP1;
+ValeurCmp = JUMPER3;
+IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D95865;
+Reference = JP2;
+ValeurCmp = JUMPER3;
+IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D95874;
+Reference = JP3;
+ValeurCmp = JUMPER3;
+IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D7E359;
+Reference = P1;
+ValeurCmp = JTAG;
+IdModule  = pin_array_10x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D7E36C;
+Reference = P2;
+ValeurCmp = SERIAL;
+IdModule  = pin_array_10x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D7EC77;
+Reference = P3;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D95A47;
+Reference = R1;
+ValeurCmp = R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D95A56;
+Reference = R2;
+ValeurCmp = R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D95A65;
+Reference = R3;
+ValeurCmp = R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D95A1A;
+Reference = R4;
+ValeurCmp = R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D95A29;
+Reference = R5;
+ValeurCmp = R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D95A38;
+Reference = R6;
+ValeurCmp = R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DF5C48;
+Reference = SW1;
+ValeurCmp = SWITCH_INV2;
+IdModule  = SWITCH_INV2;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DF57C1;
+Reference = SW2;
+ValeurCmp = SWITCH_INV2;
+IdModule  = SWITCH_INV2;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D7E2B6;
+Reference = U1;
+ValeurCmp = ESP8266-ESP03;
+IdModule  = esp_03;
+EndCmp
+
+EndListe

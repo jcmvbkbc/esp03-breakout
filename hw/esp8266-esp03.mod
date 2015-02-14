@@ -1,0 +1,344 @@
+PCBNEW-LibModule-V1  Sat 14 Feb 2015 05:39:15 PM GMT-3
+# encoding utf-8
+Units mm
+$INDEX
+SWITCH_INV2
+esp_03
+pin_array_10x2
+$EndINDEX
+$MODULE SWITCH_INV2
+Po 0 0 0 15 54DF5DDD 00000000 ~~
+Li SWITCH_INV2
+Sc 0
+AR 
+Op 0 0 0
+T0 0.1 4.7 1 1 0 0.15 N V 21 N "SWITCH_INV2"
+T1 0 -5.1 1 1 0 0.15 N V 21 N "VAL**"
+DS 2.9 -2.8 2.9 3 0.15 21
+DS 2.9 3 -2.9 3 0.15 21
+DS -2.9 3 -2.9 -2.8 0.15 21
+DS -2.9 -2.8 2.9 -2.8 0.15 21
+$PAD
+Sh "1" C 1.524 1.524 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2 -2.2
+$EndPAD
+$PAD
+Sh "2" C 1.524 1.524 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -2.2
+$EndPAD
+$PAD
+Sh "3" C 1.524 1.524 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2 -2.2
+$EndPAD
+$PAD
+Sh "4" C 1.524 1.524 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2 2.3
+$EndPAD
+$PAD
+Sh "5" C 1.524 1.524 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 2.3
+$EndPAD
+$PAD
+Sh "6" C 1.524 1.524 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2 2.3
+$EndPAD
+$EndMODULE SWITCH_INV2
+$MODULE esp_03
+Po 0 0 0 15 54D92D24 00000000 ~~
+Li esp_03
+Cd Double rangee de contacts 2 x 10 pins
+Kw CONN
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -3.81 1.016 1.016 0 0.254 N V 21 N "ESP_03"
+T1 0 3.81 1.016 1.016 0 0.2032 N V 21 N "Val**"
+DS -6 9 6 9 0.15 21
+DS 6 9 6 -9 0.15 21
+DS 6 -9 -6 -9 0.15 21
+DS -6 -9 -6 9 0.15 21
+$PAD
+Sh "1" R 1.524 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 6 8
+$EndPAD
+$PAD
+Sh "2" R 1.524 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 6 6
+$EndPAD
+$PAD
+Sh "3" R 1.524 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 6 4
+$EndPAD
+$PAD
+Sh "4" R 1.524 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 6 2
+$EndPAD
+$PAD
+Sh "5" R 1.524 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 6 0
+$EndPAD
+$PAD
+Sh "6" R 1.524 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 6 -2
+$EndPAD
+$PAD
+Sh "7" R 1.524 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 6 -4
+$EndPAD
+$PAD
+Sh "8" R 1.524 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -6 -4
+$EndPAD
+$PAD
+Sh "9" R 1.524 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -6 -2
+$EndPAD
+$PAD
+Sh "10" R 1.524 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -6 0
+$EndPAD
+$PAD
+Sh "11" R 1.524 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -6 2
+$EndPAD
+$PAD
+Sh "12" R 1.524 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -6 4
+$EndPAD
+$PAD
+Sh "13" R 1.524 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -6 6
+$EndPAD
+$PAD
+Sh "14" R 1.524 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -6 8
+$EndPAD
+$SHAPE3D
+Na "pin_array/pins_array_12x2.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE esp_03
+$MODULE pin_array_10x2
+Po 0 0 0 15 54D92383 00000000 ~~
+Li pin_array_10x2
+Cd Double rangee de contacts 2 x 10 pins
+Kw CONN
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -3.81 1.016 1.016 0 0.254 N V 21 N "PIN_ARRAY_10X2"
+T1 0 3.81 1.016 1.016 0 0.2032 N V 21 N "Val**"
+DS -12.74 -2.54 -12.74 2.54 0.381 21
+DS -12.74 2.54 12.74 2.54 0.381 21
+DS 12.74 2.54 12.74 -2.54 0.381 21
+DS 12.74 -2.54 -12.74 -2.54 0.381 21
+$PAD
+Sh "1" R 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.47 1.27
+$EndPAD
+$PAD
+Sh "2" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.47 -1.27
+$EndPAD
+$PAD
+Sh "3" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.93 1.27
+$EndPAD
+$PAD
+Sh "4" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.93 -1.27
+$EndPAD
+$PAD
+Sh "5" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.39 1.27
+$EndPAD
+$PAD
+Sh "6" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.39 -1.27
+$EndPAD
+$PAD
+Sh "7" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.85 1.27
+$EndPAD
+$PAD
+Sh "8" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.85 -1.27
+$EndPAD
+$PAD
+Sh "9" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.31 1.27
+$EndPAD
+$PAD
+Sh "10" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.31 -1.27
+$EndPAD
+$PAD
+Sh "11" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.23 1.27
+$EndPAD
+$PAD
+Sh "12" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.23 -1.27
+$EndPAD
+$PAD
+Sh "13" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.77 1.27
+$EndPAD
+$PAD
+Sh "14" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.77 -1.27
+$EndPAD
+$PAD
+Sh "15" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.31 1.27
+$EndPAD
+$PAD
+Sh "16" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.31 -1.27
+$EndPAD
+$PAD
+Sh "17" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.85 1.27
+$EndPAD
+$PAD
+Sh "18" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.85 -1.27
+$EndPAD
+$PAD
+Sh "19" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.39 1.27
+$EndPAD
+$PAD
+Sh "20" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.39 -1.27
+$EndPAD
+$SHAPE3D
+Na "pin_array/pins_array_12x2.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_array_10x2
+$EndLIBRARY
