@@ -1,8 +1,9 @@
-PCBNEW-LibModule-V1  Sat 14 Feb 2015 05:39:15 PM GMT-3
+PCBNEW-LibModule-V1  Sun 22 Feb 2015 04:40:44 AM GMT-3
 # encoding utf-8
 Units mm
 $INDEX
 SWITCH_INV2
+TO252
 esp_03
 pin_array_10x2
 $EndINDEX
@@ -61,6 +62,40 @@ Ne 0 ""
 Po 2 2.3
 $EndPAD
 $EndMODULE SWITCH_INV2
+$MODULE TO252
+Po 0 0 0 15 54E9335A 00000000 ~~
+Li TO252
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -2 1 1 0 0.15 N V 21 N "TO252"
+T1 0 1.9 1 1 0 0.15 N V 21 N "VAL**"
+DS -3.3 -9.2 3.3 -9.2 0.15 21
+DS 3.3 -9.2 3.3 -3.2 0.15 21
+DS 3.3 -3.2 -3.3 -3.2 0.15 21
+DS -3.3 -3.2 -3.3 -9.2 0.15 21
+$PAD
+Sh "VO" R 5.5 5.7 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -7.4
+$EndPAD
+$PAD
+Sh "VI" R 1.3 1.7 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.285 0
+$EndPAD
+$PAD
+Sh "GND" R 1.3 1.7 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.285 0
+$EndPAD
+$EndMODULE TO252
 $MODULE esp_03
 Po 0 0 0 15 54D92D24 00000000 ~~
 Li esp_03
