@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-june-11)-stable date = Sun 22 Feb 2015 04:41:29 AM GMT-3
+Cmp-Mod V01 Created by CvPcb (2013-june-11)-stable date = Tue 24 Feb 2015 10:06:38 AM GMT-3
 
 BeginCmp
 TimeStamp = /54DFBA92;
@@ -129,22 +129,85 @@ EndCmp
 BeginCmp
 TimeStamp = /54D95856;
 Reference = JP1;
-ValeurCmp = JUMPER3;
+ValeurCmp = MTDO;
 IdModule  = SIL-3;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D95865;
 Reference = JP2;
-ValeurCmp = JUMPER3;
+ValeurCmp = GPIO2;
 IdModule  = SIL-3;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D95874;
 Reference = JP3;
-ValeurCmp = JUMPER3;
+ValeurCmp = GPIO0;
 IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /54EC1B62;
+Reference = JP4;
+ValeurCmp = JUMPER;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /54EC1B71;
+Reference = JP5;
+ValeurCmp = JUMPER;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /54EC1B80;
+Reference = JP6;
+ValeurCmp = JUMPER;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /54EC1B8F;
+Reference = JP7;
+ValeurCmp = JUMPER;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /54EC1B9E;
+Reference = JP8;
+ValeurCmp = JUMPER;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /54EC2B6C;
+Reference = JP9;
+ValeurCmp = JUMPER;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /54EC2B7B;
+Reference = JP10;
+ValeurCmp = JUMPER;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /54EC2B8A;
+Reference = JP11;
+ValeurCmp = JUMPER;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /54EC2B99;
+Reference = JP12;
+ValeurCmp = JUMPER;
+IdModule  = SIL-2;
 EndCmp
 
 BeginCmp
@@ -269,14 +332,14 @@ EndCmp
 BeginCmp
 TimeStamp = /54DF5C48;
 Reference = SW1;
-ValeurCmp = SWITCH_INV2;
+ValeurCmp = POWER/RESET;
 IdModule  = SWITCH_INV2;
 EndCmp
 
 BeginCmp
 TimeStamp = /54DF57C1;
 Reference = SW2;
-ValeurCmp = SWITCH_INV2;
+ValeurCmp = STRAP;
 IdModule  = SWITCH_INV2;
 EndCmp
 
